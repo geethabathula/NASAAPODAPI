@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --default-color: #e7f6f2;
+}
+body {
+  background: linear-gradient(to right, #03001c, #6d5d6e, #03001c);
+  color: var(--default-color);
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.h1-title {
+  margin-top: 70px;
+}
+
+.image-box {
+  height: 65vh;
+  width: 60%;
+  /* border: 0px solid var(--default-color); */
+  box-shadow: 0px 3px 6px #6d5d6e;
+}
+
+.h4-date {
+}
+
+.date {
+}
+
+.paragraph {
+  height: 20vh;
+  width: 70%;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(75, 78, 78, 0.258);
+  padding: 25px;
+  margin-top: 80px;
+}
+
+.header-6 {
+  /* font-family: "Oswald", sans-serif; */
+  font-size: 20px;
+}
+
+.para-footer {
+  /* font-family: "Oswald", sans-serif; */
+  font-size: 15px;
+}
+
+footer a:active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer svg {
+  height: 40px;
+  width: 30px;
+  margin: 4px;
+  fill: var(--default-color);
+}
+
+.footer-codepen-icon {
+  height: 40px;
+  width: 35px;
+  fill: var(--default-color);
+}
