@@ -4,32 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NASA APOD API</title>
+    <title>NASA-APOD-API</title>
+    <link rel="icon" href="images/icon.svg" />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <div class="body-content">
-      <h1 class="h1-title">NASA</h1>
-      <div class="image-box"></div>
-      <h4 class="h4-date">Date : <span class="date">22Apr2023</span></h4>
-      <p class="paragraph">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
-        assumenda laboriosam iure natus aliquid minima facere, non delectus
-        laudantium omnis, vero perferendis blanditiis perspiciatis quia ea
-        deleniti illo. Ducimus, dicta. Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Vero molestiae totam adipisci temporibus quia aliquam
-        molestias. Voluptate ipsa adipisci itaque vero neque, eius beatae ex,
-        voluptates consequuntur dolore necessitatibus nam.
-      </p>
+      <h1 class="h1-title">
+        NASA APOD <abbr title="APOD">Astronomy Picture Of the Day</abbr> API
+      </h1>
+      <h2 class="h2-title"></h2>
+      <button type="button" class="button-load" type="submit">Load API</button>
 
-      <a href="#">hd url</a>
-      <p class="whythis">This application is consuming the NASA APOD API</p>
+      <div class="image-box">
+        <img id="image-display" />
+      </div>
+      <h4 class="h4-date"><span class="date"></span></h4>
+      <h4 class="pictureExplanation"></h4>
+      <p class="paragraph"></p>
+
+      <p class="whythis text-center">
+        This application is consuming the NASA APOD API.
+      </p>
     </div>
 
     <!-- Footer -->
     <footer>
       <p class="para-footer">
-        Copyrights &#169; 2023 Geetha Supriya Bathula. All rights Reserved.
+        Copyrights<b>&#169;</b> 2023 Geetha Supriya Bathula. All rights
+        Reserved.
         <br />
         Connect with me via
         <br />
@@ -82,5 +85,6 @@
         </a>
       </p>
     </footer>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
